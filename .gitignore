@@ -1,0 +1,15 @@
+# Raw PDFs & large data
+*.pdf
+data/raw/
+datatrove_experiment/01_raw_pdfs/
+
+# Intermediate artifacts
+datatrove_experiment/02_raw_text/
+datatrove_experiment/03_jsonl_input/
+datatrove_experiment/04_normalized/
+datatrove_experiment/05_filtered/
+datatrove_experiment/06_deduped/
+
+# Python junk
+__pycache__/
+*.pyc
